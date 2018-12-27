@@ -99,23 +99,6 @@
       }
     },
 
-    "persist": {
-      "cdn": "3rdparty",
-      "cwd": "node_modules/@oracle/oraclejet/dist/js/libs/persist",
-      "debug": {
-        "cwd": "debug",
-        "src": ["**"],
-        "path": "libs/persist/debug",
-        "cdnPath": "persist/debug"
-      },
-      "release": {
-        "cwd": "min",
-        "src": ["**"],
-        "path": "libs/persist/min",
-        "cdnPath": "persist/min"
-      }
-    },
-
     "ojs": {
       "cdn": "jet",
       "cwd": "node_modules/@oracle/oraclejet/dist/js/libs/oj",
@@ -222,19 +205,19 @@
         "cdnPath": "webcomponents/custom-elements.min"
       }
     },
-
+    
     "css": {
       "cdn": "3rdparty",
       "cwd": "node_modules/require-css",
       "debug": {
         "src":  ["css.js", "css-builder.js", "normalize.js"],
         "path": "libs/require-css/css.js",
-        "cdnPath": "css"
+        "cdnPath": "require-css/css"
       },
       "release": {
         "src": ["css.min.js", "css-builder.js", "normalize.js"],
         "path": "libs/require-css/css.min.js",
-        "cdnPath": "css.min"
+        "cdnPath": "require-css/css.min"
       }
     }
   }
