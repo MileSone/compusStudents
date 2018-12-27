@@ -14,10 +14,11 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockout'
       // Router setup
       self.router = oj.Router.rootInstance;
       self.router.configure({
-       'dashboard': {label: 'Dashboard', isDefault: true},
+       'dashboard': {label: 'Dashboard'},
        'incidents': {label: 'Incidents'},
        'customers': {label: 'Customers'},
        'profile': {label: 'Profile'},
+          'payment': {label: 'payment', isDefault: true},
        'about': {label: 'About'}
       });
       oj.Router.defaults['urlAdapter'] = new oj.Router.urlParamAdapter();
